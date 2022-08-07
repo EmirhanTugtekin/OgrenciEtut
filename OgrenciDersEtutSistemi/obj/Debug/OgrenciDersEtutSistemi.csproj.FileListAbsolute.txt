@@ -1,0 +1,11 @@
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\bin\Debug\OgrenciDersEtutSistemi.exe.config
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\bin\Debug\OgrenciDersEtutSistemi.exe
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\bin\Debug\OgrenciDersEtutSistemi.pdb
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.csproj.AssemblyReference.cache
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.csproj.SuggestedBindingRedirects.cache
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.Form1.resources
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.Properties.Resources.resources
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.csproj.GenerateResource.cache
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.csproj.CoreCompileInputs.cache
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.exe
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.pdb
