@@ -9,3 +9,5 @@ G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debu
 G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.csproj.CoreCompileInputs.cache
 G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.exe
 G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.pdb
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.FrmOgrenciEkle.resources
+G:\visual studio projects\OgrenciDersEtutSistemi\OgrenciDersEtutSistemi\obj\Debug\OgrenciDersEtutSistemi.FrmOgretmen.resources

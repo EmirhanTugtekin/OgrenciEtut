@@ -70,11 +70,49 @@ namespace OgrenciDersEtutSistemi
             command.Parameters.AddWithValue("@p2", cmbOgretmen.SelectedValue);
             command.Parameters.AddWithValue("@p3", mskTarih.Text);
             command.Parameters.AddWithValue("@p4", mskSaat.Text);
+            
+            
 
             command.ExecuteNonQuery();
             MessageBox.Show("etüt eklendi", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             etutListesi();
             connection.Close();
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int secilen = dataGridView1.SelectedCells[0].RowIndex;
+
+            txtEtutId.Text = dataGridView1.Rows[secilen].Cells[0].Value.ToString();
+        }
+
+        private void btnEtutVer_Click(object sender, EventArgs e)
+        {
+            connection.Open();
+
+            SqlCommand command = new SqlCommand("update tbletut set OGRENCIID=@p1,durum=@p2 where ID=@p3", connection);
+            command.Parameters.AddWithValue("@p1", txtOgrenci.Text);
+            command.Parameters.AddWithValue("@p2", "true");
+            command.Parameters.AddWithValue("@p3", txtEtutId.Text);
+
+            command.ExecuteNonQuery();
+            MessageBox.Show("etüt öğrenciye verildi", "bilgi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+            connection.Close();
+        }
+
+        private void btnOgrenciEkle_Click(object sender, EventArgs e)
+        {
+            FrmOgrenciEkle frmOgrenciEkle = new FrmOgrenciEkle();
+            frmOgrenciEkle.Show();
+            this.Hide();
+        }
+
+        private void btnOgretmenMenu_Click(object sender, EventArgs e)
+        {
+            FrmOgretmen frmOgretmen = new FrmOgretmen();
+            frmOgretmen.Show();
+            this.Hide();
         }
     }
 }
